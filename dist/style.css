@@ -60,7 +60,7 @@ body {
 
 .wrapper .card header .title::before {
   display: inline;
-  content: url(/images/icon-star.svg);
+  content: url(../images/icon-star.svg);
   width: 12px;
   height: 12px;
   margin-right: 20px;
@@ -68,14 +68,14 @@ body {
 
 .background-mobile {
   min-height: 235px;
-  background-image: url("/images/background-pattern-mobile.svg");
+  background-image: url("../images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (min-width: 64rem) {
   .background-mobile {
-    background-image: url("/images/background-pattern-desktop.svg");
+    background-image: url("../images/background-pattern-desktop.svg");
     min-height: 325px;
   }
 }
@@ -124,7 +124,7 @@ body {
 .accordion:after {
   position: relative;
   display: block;
-  content: url("/images/icon-plus.svg");
+  content: url("../images/icon-plus.svg");
   /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
@@ -134,7 +134,7 @@ body {
 }
 
 .active:after {
-  content: url("/images/icon-minus.svg");
+  content: url("../images/icon-minus.svg");
   /* Unicode character for "minus" sign (-) */
 }
 

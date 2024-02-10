@@ -69,7 +69,7 @@ body{
         
         &::before{
           display: inline;
-          content: url(/images/icon-star.svg);
+          content: url(../images/icon-star.svg);
           width: 12px;
           height: 12px;
           margin-right: 20px;
@@ -85,11 +85,11 @@ body{
 //Global button style
 .background-mobile{
   min-height: 235px;
-  background-image: url('/images/background-pattern-mobile.svg');
+  background-image: url('../images/background-pattern-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
   @include breakpoint-up(large){
-    background-image: url('/images/background-pattern-desktop.svg');
+    background-image: url('../images/background-pattern-desktop.svg');
     min-height: 325px;
   }
   
@@ -136,7 +136,7 @@ body{
   position: relative;
   
   display: block;
-  content: url('/images/icon-plus.svg'); /* Unicode character for "plus" sign (+) */
+  content: url('../images/icon-plus.svg'); /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
@@ -149,7 +149,7 @@ body{
 }
 
 .active:after {
-  content: url('/images/icon-minus.svg'); /* Unicode character for "minus" sign (-) */
+  content: url('../images/icon-minus.svg'); /* Unicode character for "minus" sign (-) */
 }
 
 .hide-for-mobile{
